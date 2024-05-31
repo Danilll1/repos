@@ -1,0 +1,34 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /plugins/
+Disallow: /search/
+Disallow: /cart/
+    
+User-agent: GoogleBot
+Disallow: /admin/
+Disallow: /admin/posts/
+Disallow: /admin/posts/confirm
+Disallow: /register/
+Disallow: /login/
+Disallow: /logout/
+Disallow: /banned/
+Allow: /plugins/*.css
+Allow: /plugins/*.js
+Allow: /plugins/*.png
+Allow: /plugins/*.jpg
+Allow: /plugins/*.gif
+    
+User-agent: Yandex
+Disallow: /admin/
+Disallow: /admin/posts/
+Disallow: /admin/posts/confirm
+Disallow: /register/
+Disallow: /login/
+Disallow: /logout/
+Disallow: /banned/
+Allow: /plugins/*.css
+Allow: /plugins/*.js
+Allow: /plugins/*.png
+Allow: /plugins/*.jpg
+Allow: /plugins/*.gif
+
